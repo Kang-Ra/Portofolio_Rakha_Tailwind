@@ -2,7 +2,12 @@ var navbar = document.querySelector("#navbar");
 var navmenu = document.querySelector("#nav-menu");
 var navclose = document.querySelector("#nav-close");
 var navdropdown = document.querySelector("#nav-dropdown");
-var input
+var logocode = document.getElementById("logo-code");
+var gambarhero = document.querySelector("#gambar-hero");
+
+gambarhero.addEventListener("click", function(){
+logocode.classList.toggle("animasi-logo-code");
+});
 
 window.addEventListener("scroll", function(){
 if(window.scrollY > 10){
