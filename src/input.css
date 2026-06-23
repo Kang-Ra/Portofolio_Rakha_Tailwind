@@ -13,5 +13,5 @@
 }
 
 .animasi-logo-code{
-    @apply animate-spin duration-1000 fill-blue-500 translate-x-4;
+    @apply animate-spin duration-1000 fill-blue-500 ;
 }
