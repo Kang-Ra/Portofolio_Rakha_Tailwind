@@ -2,6 +2,7 @@ var navbar = document.querySelector("#navbar");
 var navmenu = document.querySelector("#nav-menu");
 var navclose = document.querySelector("#nav-close");
 var navdropdown = document.querySelector("#nav-dropdown");
+var input
 
 window.addEventListener("scroll", function(){
 if(window.scrollY > 10){
