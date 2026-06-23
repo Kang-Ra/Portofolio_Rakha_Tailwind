@@ -272,6 +272,9 @@
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
+  .h-\[150px\] {
+    height: 150px;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -286,6 +289,9 @@
   }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[150px\] {
+    width: 150px;
   }
   .w-full {
     width: 100%;
@@ -725,6 +731,11 @@
       height: 25rem;
     }
   }
+  .lg\:h-\[180px\] {
+    @media (width >= 64rem) {
+      height: 180px;
+    }
+  }
   .lg\:w-1\/2 {
     @media (width >= 64rem) {
       width: calc(1 / 2 * 100%);
@@ -758,6 +769,11 @@
   .lg\:w-\[100\%\] {
     @media (width >= 64rem) {
       width: 100%;
+    }
+  }
+  .lg\:w-\[180px\] {
+    @media (width >= 64rem) {
+      width: 180px;
     }
   }
   .lg\:scroll-mt-\[5rem\] {
@@ -1059,6 +1075,8 @@
   }
 }
 .animasi-logo-code {
+  --tw-translate-x: calc(var(--spacing) * 4);
+  translate: var(--tw-translate-x) var(--tw-translate-y);
   animation: var(--animate-spin);
   fill: var(--color-blue-500);
   --tw-duration: 1000ms;
