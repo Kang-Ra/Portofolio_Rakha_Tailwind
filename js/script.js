@@ -4,6 +4,8 @@ var navclose = document.querySelector("#nav-close");
 var navdropdown = document.querySelector("#nav-dropdown");
 var logocode = document.getElementById("logo-code");
 var gambarhero = document.querySelector("#gambar-hero");
+var inputemail = document.querySelector("#email");
+var labelemail = document.querySelector("#label-email");
 
 gambarhero.addEventListener("click", function(){
 logocode.classList.toggle("animasi-logo-code");
@@ -30,4 +32,13 @@ navclose.addEventListener("click", function(){
 navclose.classList.add("hidden");
 navmenu.classList.remove("hidden");
 navdropdown.classList.add("hidden");
+});
+
+inputemail.addEventListener("input", function(){
+if(inputemail.value === ""){
+    labelemail.textContent = "Email *";
+}
+else{
+    labelemail.textContent = "Email";
+}
 });

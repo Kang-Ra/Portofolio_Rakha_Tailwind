@@ -102,27 +102,27 @@
 
 <div class="flex lg:static  justify-center w-full  flex-wrap gap-5 lg:gap-10  lg:grid  lg:grid-cols-3 lg:px-[5%]">
 
-<div class="bg-sky-500 w-[45%] lg:w-[100%] flex justify-center flex-col border-[4px] border-gray-800 overflow-hidden lg:h-[25rem] hover:shadow-xl hover:shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300">
+<div class="bg-sky-500 w-[45%] lg:w-[100%] flex justify-center flex-col border-[4px] border-gray-800 overflow-hidden lg:h-[25rem] hover:shadow-xl hover:shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300">
 <img class="w-full object-cover xl:object-top " src="img/Poto-Strategi.png" alt="Projek 2">
 </div>
 
-<a href="https://kang-ra.github.io/AKACODE_WEBSITE.github.io/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] xl:object-top hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300 hover:border-gray-800 hover:border-4">
+<a href="https://kang-ra.github.io/AKACODE_WEBSITE.github.io/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] xl:object-top hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300 hover:border-gray-800 hover:border-4">
 <img class="w-full object-cover" src="img/Projek 1.png" alt="Projek 1">
 </a>
 
-<div class="bg-sky-500 w-[45%] lg:w-[100%] flex justify-center flex-col  border-[4px] border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300">
+<div class="bg-sky-500 w-[45%] lg:w-[100%] flex justify-center flex-col  border-[4px] border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300">
 <img class="w-full object-cover xl:object-top overflow-hidden" src="img/Foto-Kepercayaan.png" alt="Projek 2">
 </div>
 
-<a href="https://kang-ra.github.io/Kibiki_Web/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300 hover:border-gray-800 hover:border-4">
+<a href="https://kang-ra.github.io/Kibiki_Web/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300 hover:border-gray-800 hover:border-4">
 <img class="w-full object-cover xl:object-top " src="img/Projek 2.png" alt="Projek 2">
 </a>
 
-<div class=" w-[45%] lg:w-[100%]  flex justify-center lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300 hover:border-gray-800 hover:border-4">
+<div class=" w-[45%] lg:w-[100%]  flex justify-center lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300 hover:border-gray-800 hover:border-4">
 <img class="w-full object-cover object-left" src="img/Coding.jpg" alt="Poto Laptop">
 </div>
 
-<a href=" https://kang-ra.github.io/Hero-Kitchen.github.io/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-initial duration-300 hover:border-gray-800 hover:border-4">
+<a href=" https://kang-ra.github.io/Hero-Kitchen.github.io/" class=" w-[45%] lg:w-[100%]  flex justify-center border-gray-800 lg:h-[25rem] hover:shadow-xl shadow-gray-700 cursor-pointer hover:-translate-y-3 ease-in-out duration-300 hover:border-gray-800 hover:border-4">
 <img class="w-full object-cover object-left" src="img/Projek  3.png" alt="Projek 3">
 </a>
 </div>
@@ -192,30 +192,37 @@
 
 <div class=" lg:flex">
 
+    <form class="w-full">
+
+  <div class="flex flex-col lg:flex-row w-full">
+
     <div class="lg:w-[50%]">
-<label class="text-white mx-5" for="namadepan">Nama Depan</label>
-<input id="namadepan" class="w-[90%] border-b-2 border-white ml-5 lg:mx-5 outline-none mb-8 text-gray-700" type="text">
-</div>
+      <label class="text-white mx-5" for="namadepan">Nama Depan</label>
+      <input id="namadepan" class="w-[90%] border-b-2 border-white ml-5 lg:mx-5 outline-none mb-8 text-gray-700" type="text" required>
+    </div>
 
-<div class=" lg:w-[50%] lg:mr-12">
-<label class="text-white mx-5" for="namabelakang">Nama Belakang</label><br>
-<input id="namabelakang" class="w-[90%]  border-b-2 border-white ml-5 lg:mx-5 outline-none text-gray-700" type="text"><br><br>
-</div>
+    <div class="lg:w-[50%] lg:mr-12">
+      <label class="text-white mx-5" for="namabelakang">Nama Belakang</label><br>
+      <input id="namabelakang" class="w-[90%] border-b-2 border-white ml-5 lg:mx-5 outline-none text-gray-700 autofill:bg-transparent" type="text" required><br><br>
+    </div>
 
-</div>
+  </div>
 
-<label class="text-white mx-5 " for="namabelakang">Email *</label><br>
-<input id="namabelakang" class="w-[90%]  border-b-2 border-white ml-5 lg:mx-5 outline-none bg-sky-500 focus:bg-sky-500 text-gray-700" type="email">
-<br><br>
+  <label id="label-email" class="text-white mx-5" for="email">Email *</label><br>
+  <input id="email" class="w-[90%] border-b-2 border-white ml-5 lg:mx-5 outline-none bg-sky-500 focus:bg-sky-500 text-gray-700 autofill:bg-transparent" type="email" required>
+  <br><br>
 
-<label class="text-white mx-5" for="namabelakang">Tuliskan Pesan</label><br>
-<textarea id="namabelakang" class="w-[90%]  border-b-2 border-white ml-5 lg:mx-5 outline-none text-gray-700" type="email"></textarea>
- <br><br>
+  <label class="text-white mx-5" for="pesan">Tuliskan Pesan</label><br>
+  <textarea id="pesan" class="w-[90%] border-b-2 border-white ml-5 lg:mx-5 outline-none text-gray-700" required></textarea>
+  <br><br>
 
- <div class=" lg:block w-[100%]  flex justify-center">
-<button class="bg-white py-2 lg:mx-4 px-12 rounded-full ml-5 lg:mx-5 font-semibold text-gray-700 shadow-sm shadow-gray-700 hover:border-2 border-2 border-white hover:border-white hover:bg-gray-500 
-hover:text-white cursor-pointer ease-in duration-300">Kirim</button>
-</div>
+  <div class="lg:block w-[100%] flex justify-center">
+    <button type="submit" class="bg-white py-2 lg:mx-4 px-12 rounded-full ml-5 lg:mx-5 font-semibold text-gray-700 shadow-sm shadow-gray-700 hover:border-2 border-2 border-white hover:border-white hover:bg-gray-500 hover:text-white cursor-pointer ease-in-out duration-300">
+      Kirim
+    </button>
+  </div>
+
+</form>
 
 
 </div>
@@ -237,12 +244,12 @@ hover:text-white cursor-pointer ease-in duration-300">Kirim</button>
 
 <div class="lg:pl-28">
     <h1 class="font-semibold text-white mx-5 mt-5 ">Email :</h1>
-    <a class="font-semibold text-white mx-5 hover:text-gray-800  cursor-pointer ease-in duration-300">belitungraka12@gmail.com</a>
+    <a class="font-semibold text-white mx-5 hover:text-gray-800  cursor-pointer ease-in-out duration-300">belitungraka12@gmail.com</a>
 </div>
 
 <div>
     <h1 class="font-semibold text-white mx-5 mt-5">Alamat :</h1>
-    <a class="font-semibold text-white mx-5 hover:text-gray-800  cursor-pointer ease-in duration-300">Jl. Tg Kelayang, Desa Batu Itam</a>
+    <a class="font-semibold text-white mx-5 hover:text-gray-800  cursor-pointer ease-in ease-in-out duration-300">Jl. Tg Kelayang, Desa Batu Itam</a>
 </div>
 
 </div>
